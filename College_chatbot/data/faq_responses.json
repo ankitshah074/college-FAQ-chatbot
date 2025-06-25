@@ -1,0 +1,58 @@
+{
+    "admission": {
+        "patterns": ["admission", "apply", "application", "how to apply", "eligibility"],
+        "responses": [
+            "You can apply online through our college portal.",
+            "Admission requirements: 12th grade certificate with minimum 75% marks.",
+            "Application deadline is June 30th each year."
+        ]
+    },
+    "courses": {
+        "patterns": ["courses", "programs", "degrees", "what courses do you offer"],
+        "responses": [
+            "We offer B.Tech in Computer Science, Mechanical, and Electrical Engineering.",
+            "Available programs: BBA, B.Com, B.Sc in Physics and Chemistry."
+        ]
+    },
+    "fees": {
+        "patterns": ["fees", "tuition", "cost", "fee structure", "payment"],
+        "responses": [
+            "Annual tuition fee: $10,000 for engineering programs.",
+            "Fee payment can be made in 3 installments per year."
+        ]
+    },
+    "contact": {
+        "patterns": ["contact", "address", "email", "phone", "how to contact"],
+        "responses": [
+            "College address: 123 Education Street, Academic City.",
+            "Phone: +1-123-456-7890 | Email: info@college.edu"
+        ]
+    },
+    "admissions": {
+        "patterns": ["admissions", "how to get admitted", "admission process", "when do admissions open"],
+        "responses": [
+            "Admissions open in May each year. Please check our website for updates.",
+            "The admission process includes an entrance exam and an interview."
+        ]
+    },
+    "scholarships": {
+        "patterns": ["scholarship", "financial aid", "how to get a scholarship", "are there any scholarships available"],
+        "responses": ["We offer several scholarships. Please visit our scholarships page for details.", "Financial aid applications are accepted every semester."]
+    },
+    "campus_life": {
+        "patterns": ["campus life", "student life", "facilities", "hostel", "library"],
+        "responses": [
+            "Our campus has a vibrant student life with various clubs and activities.",
+            "Facilities include a library, sports complex, and student hostels."
+        ]
+    },
+    
+
+    "default": {
+        "patterns": [],
+        "responses": [
+            "I'm sorry, I didn't understand. Could you rephrase your question?",
+            "I'm still learning! Could you ask about admissions, courses, fees, or contact information, campus-life, scholarships, or admissions process?"
+        ]
+    }
+}
